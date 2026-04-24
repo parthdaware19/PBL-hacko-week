@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- Google Fonts for Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="chat-container">
+    <header class="chat-header">
+        <div class="header-icon">🏥</div>
+        <div class="header-text">
+            <h1>Virtual Healthcare Assistant</h1>
+            <p>Ask about symptoms or find a doctor near you.</p>
+        </div>
+    </header>
+    
+    <main class="chat-box" id="chat-box">
+        <!-- Messages will be added here dynamically -->
+        <div class="message bot-message">
+            <div class="message-bubble">
+                Hello! I am your virtual healthcare assistant. You can ask me to help identify symptoms (e.g., "I have a headache") or find hospitals near you (e.g., "Find a doctor near Seattle").<br><br>
+                <em><b>Note:</b> I am an AI, not a doctor. Please consult a professional for medical advice.</em>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="input-area">
+        <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+        <button id="send-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+        </button>
+    </footer>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

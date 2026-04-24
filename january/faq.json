@@ -1,0 +1,133 @@
+{
+  "faqs": [
+    {
+      "question": "What are the college timings?",
+      "answer": "College timings are Monday to Friday, 8:00 AM to 5:00 PM. Saturday classes run from 8:00 AM to 1:00 PM.",
+      "intent": "timetable"
+    },
+    {
+      "question": "What is the tuition fee for this semester?",
+      "answer": "The tuition fee for the current semester is $2,500. Payment is due by the 15th of the first month of each semester.",
+      "intent": "fees"
+    },
+    {
+      "question": "How can I contact the admissions office?",
+      "answer": "You can contact the admissions office at admissions@campus.edu or call +1-800-123-4567. Office hours are 9 AM to 4 PM on weekdays.",
+      "intent": "admissions"
+    },
+    {
+      "question": "When are the final exams scheduled?",
+      "answer": "Final exams are scheduled in the last two weeks of May for the spring semester and the last two weeks of December for the fall semester.",
+      "intent": "exams"
+    },
+    {
+      "question": "Is hostel accommodation available?",
+      "answer": "Yes, hostel accommodation is available on campus. There are separate dormitories for male and female students. Contact housing@campus.edu to apply.",
+      "intent": "hostel"
+    },
+    {
+      "question": "What scholarships are available?",
+      "answer": "We offer merit-based, need-based, and sports scholarships. Apply through the scholarship portal at scholarships.campus.edu before March 31.",
+      "intent": "scholarships"
+    },
+    {
+      "question": "How do I get my student ID card?",
+      "answer": "Student ID cards are issued during orientation week. If you need a replacement, visit the student services office with a fee of $10.",
+      "intent": "admissions"
+    },
+    {
+      "question": "What is the library schedule?",
+      "answer": "The campus library is open Monday to Friday from 7:30 AM to 10:00 PM, and Saturday from 9:00 AM to 6:00 PM. It is closed on Sundays.",
+      "intent": "timetable"
+    },
+    {
+      "question": "How do I register for courses?",
+      "answer": "Course registration opens two weeks before the semester starts. Log in to the student portal at portal.campus.edu to register for your courses.",
+      "intent": "admissions"
+    },
+    {
+      "question": "What is the exam fee?",
+      "answer": "The examination fee is $150 per semester and is included in your overall fee structure. Supplementary exams cost $30 per subject.",
+      "intent": "fees"
+    },
+    {
+      "question": "Where is the hostel located?",
+      "answer": "The student hostel is located on the east side of campus, a 5-minute walk from the main academic block. It accommodates up to 500 students.",
+      "intent": "hostel"
+    },
+    {
+      "question": "How do I apply for a scholarship?",
+      "answer": "Scholarship applications can be submitted online through scholarships.campus.edu. Required documents include your transcripts, income certificate, and a recommendation letter.",
+      "intent": "scholarships"
+    },
+    {
+      "question": "What is the class timetable for Monday?",
+      "answer": "Monday timetable varies by department. Please check the student portal at portal.campus.edu or contact your department office for your specific schedule.",
+      "intent": "timetable"
+    },
+    {
+      "question": "When is the admission deadline?",
+      "answer": "Admission deadlines are January 15 for the spring semester and July 31 for the fall semester. Late applications may be considered on a case-by-case basis.",
+      "intent": "admissions"
+    },
+    {
+      "question": "How do I check my exam results?",
+      "answer": "Exam results are published on the student portal within 3 weeks of the exam date. You will also receive an email notification when results are available.",
+      "intent": "exams"
+    }
+  ],
+  "intents": {
+    "admissions": [
+      "How do I apply for admission?",
+      "What documents are needed for admission?",
+      "When does the new semester start?",
+      "How do I get my student ID?",
+      "What is the admission process?",
+      "How to register for courses?",
+      "What is the enrollment deadline?"
+    ],
+    "exams": [
+      "When are the exams?",
+      "What is the exam schedule?",
+      "How do I check my results?",
+      "What happens if I fail an exam?",
+      "When are supplementary exams?",
+      "How to apply for revaluation?"
+    ],
+    "timetable": [
+      "What are the class timings?",
+      "What is the college schedule?",
+      "When does the library close?",
+      "What time do classes start?",
+      "When is the lab open?"
+    ],
+    "hostel": [
+      "Is hostel available?",
+      "How much does accommodation cost?",
+      "Can I live on campus?",
+      "How do I apply for a dorm room?",
+      "What are the hostel rules?"
+    ],
+    "scholarships": [
+      "Are there any scholarships?",
+      "How do I get financial aid?",
+      "What merit scholarships are available?",
+      "How to apply for bursary?",
+      "When is the scholarship deadline?"
+    ],
+    "fees": [
+      "How much is the tuition fee?",
+      "When is the fee due?",
+      "How do I pay my fees?",
+      "Are there any fee waivers?",
+      "What is the late fee penalty?"
+    ],
+    "general": [
+      "Hello",
+      "Hi",
+      "What can you help me with?",
+      "Tell me about the campus",
+      "Goodbye"
+    ]
+  }
+}
